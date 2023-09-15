@@ -18,7 +18,7 @@ class WeatherViewModel: ObservableObject {
     }
     
     func fetchWeather() {
-        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/onecall?lat=41.18&lon=69.15&exclude=current&appid=dd2598cdcdaec1f076043672160760ed") else {
+        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/onecall?lat=41.18&lon=69.15&exclude=current&appid=") else {
             return
         }
         
